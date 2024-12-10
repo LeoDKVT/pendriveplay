@@ -1,0 +1,42 @@
+/* barra de navegação personalizada */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-image: linear-gradient(to bottom, #f49867, #63084d);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #070707;
+  border: 1px solid #63084d;
+}
+
+/*botão para o topo*/
+#btnTopo {
+  display: none;
+  position: fixed;
+  color: white;
+  background-color: #63084d;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  bottom: 20px;
+  right: 20px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#btnTopo:hover {
+  background-color: #f49867;
+  transition: 0.5s;
+}
+
+/* foto de fundo da pagina contato.html */
+#bg-quote {
+  background-image: url(../img/frame.svg);
+  background-position: center center;
+  background-size: cover;
+}
