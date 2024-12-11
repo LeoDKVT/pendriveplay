@@ -41,6 +41,14 @@ body {
 }
 
 /* foto de fundo da pagina contato.html */
+#bg-quotee {
+  background-image: url(../img/tee.svg);
+  background-position: center center;
+  background-size: cover;
+}
+
+
+/* foto de fundo da pagina contato.html */
 #bg-quote {
   background-image: url(../img/fundored.svg);
   background-position: center center;
