@@ -57,3 +57,9 @@ body {
   .bg-chumbo {
     background-color: #332a2ab7;
   }
+
+  #bg-faq {
+    background-image: url(../img/fundored.svg);
+    background-position: center center;
+    background-size: cover;
+  }
