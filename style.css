@@ -74,3 +74,13 @@
     font-family: 'Ethnocentric-regular', sans-serif;
     src: url(../fonts/Ethnocentric-regular.woff2);
   }
+
+
+  /* degrade do butão */
+.btn-degrade {
+  background: linear-gradient(to right, #FF4C08, #9D0208);
+  border: none;
+}
+.btn-degrade:hover {
+  background: linear-gradient(to right, #9D0208, #FF4C08);
+}
