@@ -59,16 +59,29 @@
     background-position: center center;
     background-size: cover;
   }
-  
-  .bg-chumbo {
-    background-color: #332a2ab7;
-  }
 
   #bg-faq {
     background-image: url(../img/fundored.svg);
     background-position: center center;
     background-size: cover;
   }
+  
+  #bg-sastifacao {
+    background-image: url(../img/efect-ilumination-satisfacao.svg);
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .bg-vinho {
+    background-color: #370617;
+  }
+
+
+  .bg-chumbo {
+    background-color: #332a2ab7;
+  }
+
+
 
   .font-padrao {
     font-family: 'Ethnocentric-regular', sans-serif;
@@ -83,4 +96,12 @@
 }
 .btn-degrade:hover {
   background: linear-gradient(to right, #9D0208, #FF4C08);
+}
+
+
+
+.border-card {
+  border: 4px solid;
+  border-radius: 45px;
+  box-shadow: 10px 20px 20px 0px #00000080;
 }
