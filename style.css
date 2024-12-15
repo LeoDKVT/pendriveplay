@@ -1,5 +1,11 @@
-body {
-    background-color: #070707;
+  @font-face {
+    font-family: 'Ethnocentric-regular';
+    src: url(../fonts/Ethnocentric-regular.woff2);
+    font-display: block;
+  }
+  
+  body {
+    background-color: #03071E;
   }
   
   
@@ -9,7 +15,7 @@ body {
   }
   
   ::-webkit-scrollbar-track {
-    background-image: linear-gradient(to bottom, #f49867, #63084d);
+    background-image: linear-gradient(to bottom, #DC2F02, #9D0208);
   }
   
   ::-webkit-scrollbar-thumb {
@@ -62,4 +68,9 @@ body {
     background-image: url(../img/fundored.svg);
     background-position: center center;
     background-size: cover;
+  }
+
+  .font-padrao {
+    font-family: 'Ethnocentric-regular', sans-serif;
+    src: url(../fonts/Ethnocentric-regular.woff2);
   }
