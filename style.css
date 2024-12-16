@@ -72,6 +72,12 @@
     background-size: cover;
   }
 
+  #bg-vantagens {
+    background-image: url(../img/efect-ilumination-vantagens.svg);
+    background-position: center center;
+    background-size: cover;
+  }
+
   .bg-vinho {
     background-color: #370617;
   }
