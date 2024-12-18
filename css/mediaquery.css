@@ -13,6 +13,9 @@
     background-position: center bottom;
     background-size: cover;
   }
+  button {
+    align-items: center;
+  }
 }
 
 /* Media query para tablets e telas médias */
